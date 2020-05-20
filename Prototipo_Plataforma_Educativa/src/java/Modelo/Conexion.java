@@ -18,13 +18,13 @@ public class Conexion {
     public int Checar(String password, String user) throws ClassNotFoundException, SQLException{
         ResultSet rs=null;    
         Class.forName("com.mysql.jdbc.Driver");
-        Connection db = DriverManager.getConnection("jdbc:mysql://localhost/DB2","root", "root");
+        Connection db = DriverManager.getConnection("jdbc:mysql://localhost/Prototipo_Pla_DB","root", "root");
         Statement s = db.createStatement();
-        rs=s.executeQuery("SELECT * FROM Users");
+        rs=s.executeQuery("SELECT * FROM Usuario");
             
         while(rs.next())
             {
-                if(rs.getString("id1").equals(user)&&rs.getString("clave").equals(password)) return 1;
+                if(rs.getString("email").equals(user)&&rs.getString("contrasena").equals(password)) return 1;
             }     
         return 0;
     }
