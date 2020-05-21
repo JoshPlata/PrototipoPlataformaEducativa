@@ -14,7 +14,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema Prototipo_Pla_DB
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `Prototipo_Pla_DB` DEFAULT CHARACTER SET utf8 ;
+CREATE database IF NOT EXISTS `Prototipo_Pla_DB` DEFAULT CHARACTER SET utf8 ;
 USE `Prototipo_Pla_DB` ;
 
 -- -----------------------------------------------------
@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS `Prototipo_Pla_DB`.`Usuario` (
   `Rol` VARCHAR(45) NULL,
   `Nombre` VARCHAR(45) NULL,
   `Apellido_Pat` VARCHAR(45) NULL,
+  `Apellido_Mat` VARCHAR(45) NULL,
   `Boleta` INT NULL,
   `Unidad_Aca` VARCHAR(45) NULL,
   `Email_Recl` VARCHAR(45) NULL,
@@ -66,6 +67,7 @@ CREATE TABLE IF NOT EXISTS `Prototipo_Pla_DB`.`Usuario_has_Aula` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+INSERT INTO USUARIO(email,contrasena,rol,nombre,apellido_pat,apellido_mat,boleta,unidad_aca,email_recl) VALUES("josueplata981@gmail.com","platalover98","ADMINISTRADOR","Josue","Plata","Garcia",2014090552,"ESCOM","dsadas");
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

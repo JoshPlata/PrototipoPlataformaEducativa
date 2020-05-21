@@ -25,7 +25,7 @@
                         Nombre:<input name="Nombre" type="text"  class="form-control" placeholder="Nombre" required>
                         Apellido Paterno: <input name="text" type="password"  class="form-control" placeholder="Apellido Paterno" required>
                         Apellido Materno:<input name="text" type="password"  class="form-control" placeholder="Apellido Materno" required>
-                        Boleta:<input name="boleta" type="text"  class="form-control" placeholder="Password" required>
+                        Boleta:<input name="boleta" type="text"  class="form-control" placeholder="Boleta" required>
                         Rol:<select name="rol" type="text" class="form-control" required>                                               
                                <option value="1">Alumno</option> 
                                <option value="2">Profesor</option> 
