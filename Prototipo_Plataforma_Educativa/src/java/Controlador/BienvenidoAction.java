@@ -26,10 +26,21 @@ public class BienvenidoAction
         }
          
 	public String execute() throws ClassNotFoundException, SQLException {
-                
-                Conexion con= new Conexion();                                              
-                if(con.Checar(getPassword(),getUsername())==1){
-                    return "exitoso";    
+            
+                Conexion con= new Conexion();  
+                int valor=con.Logear(getPassword(),getUsername());
+                if(valor>0){
+                    switch (valor){
+                        case 2:
+                            return "Alumno";                          
+                        case 3:
+                            return "Profesor";                          
+                        case 4:
+                            return "Administrador";                          
+                        default:
+                            return "fracaso";  
+                        
+                    }                    
                 }else{
                     return "fracaso";    
                 }

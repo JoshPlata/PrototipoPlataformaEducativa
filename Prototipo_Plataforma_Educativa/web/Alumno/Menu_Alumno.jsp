@@ -1,10 +1,11 @@
 <%-- 
-    Document   : salidamal
-    Created on : 24/02/2020, 04:46:20 PM
+    Document   : Menu_Alumno
+    Created on : 20/05/2020, 01:00:15 PM
     Author     : Josh Plata
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,6 +13,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>No existe</h1>
+        <h4>
+		Hello
+		<s:property value="username" />
+	</h4>
     </body>
 </html>

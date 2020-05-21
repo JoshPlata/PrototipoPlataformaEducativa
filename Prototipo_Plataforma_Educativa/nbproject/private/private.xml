@@ -3,15 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/Controlador/BienvenidoAction.java</file>
-            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/salidamal.jsp</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Registro/Registro.jsp</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/struts.xml</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/Controlador/RegistroAction.java</file>
             <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Bootstrap/css/singin.css</file>
-            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/salida.jsp</file>
-            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/index.jsp</file>
-            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/Modelo/Conexion.java</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Profesor/Menu_Profesor.jsp</file>
             <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Bootstrap/css/bootstrap.css</file>
             <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Bootstrap/css/bootstrap.min.css</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Alumno/Menu_Alumno.jsp</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/Controlador/BienvenidoAction.java</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/index.jsp</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/Modelo/Conexion.java</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/web/Administrador/Menu_Administrador.jsp</file>
+            <file>file:/C:/Users/Asus.LAPTOP-T5HOCGCC/Desktop/TT/PrototipoPlataformaEducativa/Prototipo_Plataforma_Educativa/src/java/Gradle/ClassroomQuickstart.java</file>
         </group>
     </open-files>
 </project-private>

@@ -24,7 +24,9 @@
 
                         <label for="inputPassword" class="sr-only">Password</label>
                         <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                        <h6> Registrate </h6>
+                        
+                        <a href="Registro/Registro.jsp"><h6> Registrate </h6></a>
+                        
                         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
                 </s:form>

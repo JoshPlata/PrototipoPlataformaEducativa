@@ -6,9 +6,15 @@
  
 	<package name="nombrepaquete" namespace="/Usuario" extends="struts-default">
 		<action name="Bienvenido" class="Controlador.BienvenidoAction">
-			<result name="exitoso">/salida.jsp</result>
-                        <result name="fracaso">/salidamal.jsp</result>
+			<result name="Alumno">/Alumno/Menu_Alumno.jsp</result>
+                        <result name="Profesor">/Profesor/Menu_Profesor.jsp</result>
+                        <result name="Administrador">/Administrador/Menu_Administrador.jsp</result>                        
+                        <result name="fracaso">/index.jsp</result>
 		</action>
+                
+                <action name="Registro" class="Controlador.RegistroAction">
+                        <result name="funciono">/salidamal.jsp</result>
+                </action>                                
 	</package>
  
 </struts>
